@@ -1,0 +1,16 @@
+#APIs used 
+1. GeoDB from Rapid API
+2. OpenWeatherMap
+
+#Packages required
+1. Accordion
+    npm install react-accessible-accordion
+
+2. Pagination on menu scroll
+    npm install react-select-async-paginate
+
+#in GeoDB API
+    we are using cities endpoint and namePrefix param
+    ex. 'https://wft-geo-db.p.rapidapi.com/v1/geo/cities?namePrefix=mumb';
+
+#response of "loadOptions" should be an object with "options" prop, which contains array of options.
